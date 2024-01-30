@@ -1,10 +1,10 @@
 import React from 'react'
 import { twMerge } from 'tailwind-merge'
 
-const listItem = ({className,text}) => {
+const ListItem = ({className,text,key}) => {
   return (
-    <div className={twMerge('font-poppins text-base font-normal',className)}>{text}</div>
+    <li className={twMerge('font-poppins text-base font-normal',className)}>{text}</li>
   )
 }
 
-export default listItem
+export default ListItem

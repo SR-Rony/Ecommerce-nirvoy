@@ -1,9 +1,9 @@
 import React from 'react'
 
-const list = ({children,className}) => {
+const List = ({children,className,key}) => {
   return (
-    <ul className={className}>{children}</ul>
+    <ul key={key} className={className}>{children}</ul>
   )
 }
 
-export default list
+export default List
