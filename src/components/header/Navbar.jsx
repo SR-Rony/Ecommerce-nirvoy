@@ -8,7 +8,7 @@ let menuList =["Women's Fashion","men's Fashion","Kid's Fashion","Home & Lifesty
 const Navbar = () => {
     const [menu,serMenu]=useState(menuList)
   return (
-    <nav className='pb-2 border-b-2 border-[#EFEEEE]'>
+    <nav className='pb-2 mb-5 border-b-2 border-[#EFEEEE]'>
         <Container>
             <List className='flex justify-between items-center gap-5 px-10 uppercase'>
                 {menu.map((item,index)=>(
